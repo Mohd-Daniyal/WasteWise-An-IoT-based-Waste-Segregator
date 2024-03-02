@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waste Classification</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/design.css') }}"
+    />
+  </head>
+  <body>
+    <img id="camera-feed" src="" alt="Camera Feed" />
+    <button id="classify-btn">Classify</button>
+    <div id="classification-container">
+      <p id="classification-result"></p>
+      <button id="dump-btn">Dump</button>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  </body>
+</html>

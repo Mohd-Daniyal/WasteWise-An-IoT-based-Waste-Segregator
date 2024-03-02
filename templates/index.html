@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Iot Waste Segregator</title>
+	<link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="menu-area">
+		<a class="logo" href="#"><img src="{{ url_for('static', filename='img/logo-no-background.svg') }}" width="40" height="40" alt="SVG" /></a>
+		<ul class="nav">
+			<li>
+				<a href="#home">Home</a>
+			</li>
+			<li>
+				<a href="#about">About</a>
+			</li>
+			<li>
+				<a href="#services">Service</a>
+			</li>
+			<li>
+				<a href="#footer">Contact</a>
+			</li>
+		</ul>
+	</div>
+	<section id="home">
+		<div class="content">
+            <h1>Towards a sustainable world</h1>
+            <br>
+            <p>Join us on our journey towards a more sustainable future. Let's work together to reduce our ecological footprint and create a greener, cleaner world for future generations.</p>
+            <a href="#services"><button>Get Started</button></a>
+        </div>        
+	</section>
+	<section id="about">
+		<div class="text">
+			<h1>What we are?</h1>
+		</div>
+		<div class="content">
+            <div>
+                <p>Welcome to our innovative waste management solution! Our system leverages cutting-edge technologies like computer vision and IoT to revolutionize waste sorting. Using a camera feed, 
+                    our system classifies waste items as biodegradable or non-biodegradable in real-time. Once classified, servo motor is activated to direct the waste items to their respective bins. 
+                    This streamlined process enhances recycling efficiency and promotes environmental sustainability by ensuring that each type of waste is appropriately handled. Join us in our mission towards a greener, more sustainable world!</p>
+            </div>
+			<div class="image">
+                <img src="{{ url_for('static', filename='img/unt.png') }}" alt="About Image">
+            </div>
+		</div>
+	</section>
+	<hr class="thick-line">
+	<section id="services">
+		<div class="text">
+			<h1>How it works?</h1>
+		</div>
+		<div class="content">
+			<div>
+			<p>To get started, follow these instructions:</p>
+			<ul>
+				<li>Click the <strong>'Next'</strong> button on the right side to proceed to the main working page of the project.</li>
+				<li>On the main page, click the <strong>'Classify'</strong> button to identify the type of waste.</li>
+				<li>Once classified, the result will be displayed.</li>
+				<li>Click <strong>'Dump'</strong> to dispose of the waste accordingly.</li>
+			</ul>
+			</div>
+			<div class="next">
+				<a href="http://127.0.0.1:5000/service"><button class="round"><strong>&#8594</strong></button></a>
+			</div>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="footer">
+			<a href="https://www.linkedin.com/in/mohddaniyalh/" target="_blank" class="fa fa-linkedin"></a>
+			<a href="https://github.com/Mohd-Daniyal" target="_blank" class="fa fa-github"></a>
+			<a href="mailto:mohddaniyalh@gmail.com" target="_blank" class="fa fa-google"></a>
+			<div class="copyright">
+				&copy;2024 Made by Daniyal@VIT. All rights reserved.
+			</div>
+    	</div>
+	</section>
+</body>
+</html>

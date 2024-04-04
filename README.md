@@ -1,7 +1,3 @@
-**IoT-based system for Waste Classification and Segregation**
-
----
-
 ### Overview
 
 This project aims to create a waste classification system using machine learning and IoT technologies. By integrating a camera-equipped device, such as an ESP32 CAM, with a Flask web application and a pre-trained machine learning model, users can classify waste into biodegradable and non-biodegradable categories.

@@ -23,6 +23,8 @@ This project aims to create a waste classification system using machine learning
 6. The lid of the waste bin rotates accordingly based on the waste classification.
 
 ---
+Check out the demo here:
+https://vimeo.com/950467415?share=copy
 
 ![Screenshot 2024-02-29 165434](https://github.com/Mohd-Daniyal/WasteWise-An-Iot-based-Waste-Segregation/assets/96229438/0886ef9e-de57-4f04-8552-8d2e54d1b3eb)   ![Screenshot 2024-02-29 165536](https://github.com/Mohd-Daniyal/WasteWise-An-Iot-based-Waste-Segregation/assets/96229438/7ab6a219-2d87-4bc6-a130-216d8c3475cf)
 ![Untitleddesign1-ezgif com-optimize](https://github.com/Mohd-Daniyal/WasteWise-An-Iot-based-Waste-Segregation/assets/96229438/76b58f35-1fee-4a29-b916-d83e8dec1436)
